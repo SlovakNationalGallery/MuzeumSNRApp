@@ -1,4 +1,14 @@
-ion-toolbar {
-    --background: transparent;
-    --ion-color-base: transparent !important;
+ion-card-title, h1 {
+  font-size: 60px;
 }
+
+ion-card-subtitle {
+    font-size: 20px;
+    text-transform: none;
+}
+
+a.no-underline {
+  text-decoration: none;
+  color: var(--ion-text-color);
+}
+

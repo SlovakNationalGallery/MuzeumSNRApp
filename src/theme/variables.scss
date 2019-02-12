@@ -103,18 +103,18 @@
   --ion-grid-padding:               40px;
   --ion-grid-column-padding:        40px;
 
+  // --ion-box-shadow-color: #F28E8E;
+  --ion-item-background: #fff;
+
 }
 
 
 ion-toolbar {
-    --background: transparent;
-    --ion-color-base: transparent !important;
+  --background: transparent;
+  --ion-color-base: transparent !important;
+  --min-height: 80px;
+  --padding-start: 40px;
+  --padding-end: 40px;
+  --padding-top : 40px;
 }
 
-
-// .vertical-align-content > *
-// {
-//      display: flex!important;
-//      align-content: center!important;
-//      align-items: center!important;
-// }
