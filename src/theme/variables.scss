@@ -99,4 +99,22 @@
   --ion-background-color: #EAEAEA;
   --ion-text-color:       #454343;
   --ion-font-family:      gt_eesti_pro_display, sans;
+
+  --ion-grid-padding:               40px;
+  --ion-grid-column-padding:        40px;
+
 }
+
+
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+}
+
+
+// .vertical-align-content > *
+// {
+//      display: flex!important;
+//      align-content: center!important;
+//      align-items: center!important;
+// }
