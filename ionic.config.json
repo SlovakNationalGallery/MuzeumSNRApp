@@ -1,5 +1,7 @@
 {
   "name": "MuzeumSNR",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
