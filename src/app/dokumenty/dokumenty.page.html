@@ -14,31 +14,13 @@
   <h1 text-center padding-top>DOKUMENTY</h1>
 
   <ion-grid>
-    <ion-row>
-      <ion-col>
+    <ion-row *ngFor="let row of pdf_files_in_rows">
+
+      <ion-col *ngFor="let f of row?.items; let i = index">
+        <span>{{ f.year }}</span>
         <img src="assets/icon/file.svg" alt="pdf file" class="file">
       </ion-col>
-      <ion-col>
-        <a href="dokumenty" class="no-underline">
-          <img src="assets/icon/file.svg" alt="pdf file" class="file">
-        </a>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <img src="assets/icon/file.svg" alt="pdf file" class="file">
-      </ion-col>
-      <ion-col>
-        <img src="assets/icon/file.svg" alt="pdf file" class="file">
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <img src="assets/icon/file.svg" alt="pdf file" class="file">
-      </ion-col>
-      <ion-col>
-        <img src="assets/icon/file.svg" alt="pdf file" class="file">
-      </ion-col>
+
     </ion-row>
   </ion-grid>
 </ion-content>
