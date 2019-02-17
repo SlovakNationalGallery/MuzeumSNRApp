@@ -14,11 +14,12 @@
   <h1 text-center padding-top>DOKUMENTY</h1>
 
   <ion-grid>
-    <ion-row *ngFor="let row of pdf_files_in_rows">
+    <ion-row *ngFor="let row of pdf_files_in_rows" justify-content-center align-items-center>
 
-      <ion-col *ngFor="let f of row?.items; let i = index">
-        <span>{{ f.year }}</span>
-        <img src="assets/icon/file.svg" alt="pdf file" class="file">
+      <ion-col *ngFor="let f of row?.items; let i = index" class="file" text-center>
+        <img src="assets/icon/file.svg" alt="pdf file" class="background-image">
+        <span class="year">{{ f.year }}</span>
+        <span class="title">{{ f.title }}</span>
       </ion-col>
 
     </ion-row>
