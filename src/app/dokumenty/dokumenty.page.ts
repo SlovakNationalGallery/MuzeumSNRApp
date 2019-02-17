@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import pdf_files from './dokumenty.json';
 
 @Component({
   selector: 'app-dokumenty',
@@ -7,23 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DokumentyPage implements OnInit {
 
-  pdf_files = [
-    { year: "1847", title: "Reč Ľudovíta Štúra na Uhorskom sneme"},
-    { year: "1848", title: "Žiadosti slovenského národa"},
-    { year: "1918", title: "Rezolúcia"},
-    { year: "1920", title: "Ústava Československej republiky"}
-  ];
-
-
   files_per_row = 2;
   pdf_files_in_rows = [];
 
   constructor() {
+    // console.log(pdf_files);
   }
 
   ngOnInit() {
-    for (let i = 0; i < this.pdf_files.length; i += this.files_per_row) {
-      this.pdf_files_in_rows.push({ items: this.pdf_files.slice(i, i + this.files_per_row ) });
+    for (let i = 0; i < pdf_files.length; i += this.files_per_row) {
+      this.pdf_files_in_rows.push({ items: pdf_files.slice(i, i + this.files_per_row ) });
     }
   }
 
