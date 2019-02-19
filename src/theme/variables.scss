@@ -105,7 +105,6 @@
 
   // --ion-box-shadow-color: #F28E8E;
   --ion-item-background: #fff;
-
 }
 
 
@@ -116,5 +115,14 @@ ion-toolbar {
   --padding-start: 40px;
   --padding-end: 40px;
   --padding-top : 40px;
+}
+
+ion-icon {
+  --icon-font-size: 2.5em;
+}
+
+ion-button {
+  --icon-font-size: 2.5em;
+  --color: transparent;
 }
 

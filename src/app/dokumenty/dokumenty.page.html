@@ -1,12 +1,16 @@
 <ion-header no-border>
   <ion-toolbar>
-    <!-- <ion-title>dokumenty</ion-title> -->
-    <ion-buttons slot="end">
-      <!-- <ion-menu-button autoHide="false"></ion-menu-button> -->
-      <a href="home">
-        <img src="assets/icon/menu.svg" alt="home">
-      </a>
+
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="/assets/icon/arrow-back.svg" color="dark"></ion-back-button>
     </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="'/home'" routerDirection="root">
+        <ion-icon slot="icon-only" src="/assets/icon/menu.svg" class="big"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
   </ion-toolbar>
 </ion-header>
 

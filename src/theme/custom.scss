@@ -12,3 +12,14 @@ a.no-underline {
   color: var(--ion-text-color);
 }
 
+ion-icon {
+    &.big {
+      width: 40px;
+      height: 40px;
+    }
+
+    &.bigger {
+      width: 80px;
+      height: 80px;
+    }
+}
