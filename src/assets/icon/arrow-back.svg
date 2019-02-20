@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="54.938" height="50" viewBox="0 0 54.938 50">
-  <g id="Group_28" data-name="Group 28" transform="translate(-232.998 -37.228)">
-    <path id="Path_22" data-name="Path 22" d="M256.532,57.444h31.4v9.568h-31.4a29.672,29.672,0,0,1-6.4-.772l-.077.153a18.025,18.025,0,0,1,3.4,2.7L264.171,79.82l-7.331,7.408L233,62.228l23.843-25,7.331,7.406L253.445,55.36a17.973,17.973,0,0,1-3.4,2.7l.077.154A25.531,25.531,0,0,1,256.532,57.444Z" transform="translate(0)" fill="#454343"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#454343;}
+</style>
+<g id="Group_28" transform="translate(-232.998 -37.228)">
+	<path id="Path_22" class="st0" d="M250.1,53.7H273v7h-22.9c-1.6,0-3.1-0.2-4.7-0.6l-0.1,0.1c0.9,0.6,1.7,1.2,2.5,2l7.8,7.8
+		l-5.3,5.4L233,57.2L250.4,39l5.3,5.4l-7.8,7.8c-0.7,0.8-1.6,1.4-2.5,2l0.1,0.1C247,53.9,248.6,53.7,250.1,53.7z"/>
+</g>
 </svg>

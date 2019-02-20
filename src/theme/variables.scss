@@ -24,8 +24,8 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary: #454343;
+  --ion-color-primary-rgb: 69, 67, 67;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
   --ion-color-primary-shade: #3171e0;
@@ -109,8 +109,8 @@
 
 
 ion-toolbar {
-  --background: transparent;
-  --ion-color-base: transparent !important;
+  --background: var(--ion-background-color);
+  --ion-color-base: var(--ion-background-color);
   --min-height: 80px;
   --padding-start: 40px;
   --padding-end: 40px;
@@ -125,4 +125,5 @@ ion-button {
   --icon-font-size: 2.5em;
   --color: transparent;
 }
+
 

@@ -15,14 +15,14 @@
 </ion-header>
 
 <ion-content padding>
-  <h1 text-center padding-top>DOKUMENTY</h1>
+  <h1 text-center>DOKUMENTY</h1>
 
-  <ion-grid>
+  <ion-grid padding-top>
     <ion-row *ngFor="let row of pdf_files_in_rows" justify-content-center align-items-center>
 
       <ion-col *ngFor="let f of row?.items; let i = index" class="file" text-center>
-        <a (click)="openLocalPdf()">
-          <img src="assets/icon/file.svg" alt="pdf file" class="background-image">
+        <a (click)="openLocalPdf(f.file, f.title)">
+          <img src="assets/icon/file.svg" alt="pdf file" class="background-image drop-shadow img-full">
           <span class="year">{{ f.year }}</span>
           <span class="title">{{ f.title }}</span>
         </a>

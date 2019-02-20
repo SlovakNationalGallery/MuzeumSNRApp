@@ -24,16 +24,40 @@ export class DokumentyPage implements OnInit {
     }
   }
 
-  openLocalPdf () {
+  openLocalPdf(docFile: string, docTitle: string) {
 
     let filePath = this.file.applicationDirectory + 'www/assets';
 
     const options: DocumentViewerOptions = {
-      title: 'My PDF'
+      title: docTitle,
+      documentView : {
+        closeLabel : 'Zatvoriť'
+      },
+      navigationView : {
+        closeLabel: 'Zatvoriť'
+      },
+      email : {
+        enabled : false
+      },
+      print : {
+        enabled : false
+      },
+      openWith : {
+        enabled : false
+      },
+      bookmarks : {
+        enabled: false
+      },
+      search : {
+        enabled : true
+      },
+      autoClose: {
+        onPause: false
+      }
     };
 
     // this.document.viewDocument('/assets/pdf/KR_04_2006.pdf', 'application/pdf', options);
-    this.document.viewDocument(`${filePath}/pdf/KR_04_2006.pdf`, 'application/pdf', options);
+    this.document.viewDocument(`${filePath}/pdf/${docFile}`, 'application/pdf', options);
 
   }
 

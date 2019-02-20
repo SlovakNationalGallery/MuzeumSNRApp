@@ -23,3 +23,21 @@ ion-icon {
       height: 80px;
     }
 }
+
+.drop-shadow {
+  box-shadow: 15px 15px 15px rgba(255,0,0,.4);
+}
+
+.img-full {
+  width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+ion-back-button {
+  --min-width: 40px !important;
+}
