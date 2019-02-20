@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import osobnosti_data from '../../assets/data/osobnosti.json';
 
 @Component({
   selector: 'app-osobnosti-cards',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OsobnostiCardsPage implements OnInit {
 
-  constructor() { }
+  sliderConfig = {
+    spaceBetween: 10,
+    centeredSlides: true,
+    slidesPerView: 1.2
+  };
+
+  o_data = [];
+
+  constructor() {
+    console.log(osobnosti_data);
+   }
 
   ngOnInit() {
+    this.o_data = osobnosti_data;
   }
 
 }

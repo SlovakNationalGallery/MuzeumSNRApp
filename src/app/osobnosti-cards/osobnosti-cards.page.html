@@ -14,29 +14,27 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
 
-  <ion-card>
-    <ion-card-header text-center>
-      <ion-card-title padding>Vavro Šrobár</ion-card-title>
-      <ion-card-subtitle>
-        9. 8. 1867 Lisková – 6. 12. 1950 Olomouc <br>
-        (pochovaný v Bratislave)
-      </ion-card-subtitle>
-    </ion-card-header>
+  <ion-slides pager="false" [options]="sliderConfig">
 
-    <img src="assets/images/osobnosti-cards/Srobar@3x.png">
+    <ion-slide *ngFor="let o of o_data; let i = index">
+      <ion-card>
+        <ion-card-header text-center>
+          <ion-card-title padding>{{ o.name }}</ion-card-title>
+          <ion-card-subtitle>
+            {{ o.subtitle }}<br>
+            {{ o.subtitle2 }}
+          </ion-card-subtitle>
+        </ion-card-header>
 
-    <ion-card-content>
-      Politický a verejný činiteľ, publicista, lekár. Osobnosť hlasistického hnutia, zakladateľ časopisu Hlas (spolu s P.
-      Blahom). R. 1918 – 1920 minister s plnou mocou pre správu Slovenska, 1921 – 1922 minister školstva a národnej osvety,
-      1923 – 1937 pedagóg na UK v Bratislave, 1945 – 1946 minister financií, 1948 – 1950 minister pre zjednotenie zákonov.
-      Počas štúdia v Prahe mali mimoriadny význam jeho kontakty s T.G. Masarykom už v 90. rokoch 19.st., ktoré predurčili jeho
-      dráhu verejného činiteľa, politika, publicistu. R.1901 bol zvolený do výboru Liptovskej stolice, r. 1906 neúspešne
-      kandidoval do uhorského snemu. V Masarykových intenciách prikladal dôležitosť sociálnej otázke, koncipoval rezolúciu pre
-      zhromaždenie v Liptovskom Mikuláši 1.5.1918, otvorene žiadal právo na sebaurčenie, pozitívne deklaroval svoj postoj k
-      myšlienke štátnopolitického zväzku Čechov a Slovákov v jednom štáte.
-    </ion-card-content>
-  </ion-card>
+        <img src="assets/images/osobnosti/{{ o.img }}" alt="{{ o.name }}" class="drop-shadow">
+
+        <ion-card-content>
+          {{ o.bio }}
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
 
 </ion-content>
