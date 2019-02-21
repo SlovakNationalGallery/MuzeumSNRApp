@@ -17,7 +17,6 @@ export class OsobnostiCardsPage implements OnInit {
   o_data = [];
 
   constructor() {
-    console.log(osobnosti_data);
    }
 
   ngOnInit() {

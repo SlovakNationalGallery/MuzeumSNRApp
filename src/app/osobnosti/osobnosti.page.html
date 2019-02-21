@@ -18,31 +18,11 @@
   <h1 text-center padding-top>OSOBNOSTI</h1>
 
   <ion-grid>
-    <ion-row>
-      <ion-col align-self-center text-center>
+    <ion-row *ngFor="let row of osobnosti_data_in_rows">
+      <ion-col *ngFor="let o of row?.items; let i = index"  align-self-center text-center>
         <a [routerLink]="'/osobnosti-cards'" class="no-underline"  routerDirection="forward">
-          <img src="assets/images/osobnosti/Srobar_SŠ -1@3x.png" alt="osobnost" class="img-full">
-          <h2>Vavro Šrobár</h2>
-        </a>
-      </ion-col>
-      <ion-col align-self-center text-center>
-        <a [routerLink]="'/osobnosti-cards'" class="no-underline">
-          <img src="assets/images/osobnosti/Blaho_SB -1@3x.png" alt="osobnost" class="img-full">
-          <h2>Pavol Blaho</h2>
-        </a>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col align-self-center text-center>
-        <a [routerLink]="'/osobnosti-cards'" class="no-underline">
-          <img src="assets/images/osobnosti/Blaho_SB -1@3x.png" alt="osobnost" class="img-full">
-          <h2>Pavol Blaho</h2>
-        </a>
-      </ion-col>
-      <ion-col align-self-center text-center>
-        <a [routerLink]="'/osobnosti-cards'" class="no-underline">
-          <img src="assets/images/osobnosti/Srobar_SŠ -1@3x.png" alt="osobnost" class="img-full">
-          <h2>Vavro Šrobár</h2>
+          <img src="assets/images/osobnosti/{{ o.img }}" alt="{{ o.name }}" class="img-full drop-shadow">
+          <h2>{{ o.name }}</h2>
         </a>
       </ion-col>
     </ion-row>

@@ -35,7 +35,14 @@ ion-icon {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    letter-spacing: 3px;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+h2 {
+  letter-spacing: 1px;
 }
 
 ion-back-button {

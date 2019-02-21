@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import pdf_files from './dokumenty.json';
 import { Platform } from '@ionic/angular';
 import { DocumentViewer, DocumentViewerOptions } from '@ionic-native/document-viewer/ngx';
 import { File } from '@ionic-native/File/ngx';
+
+import dokumenty_data from '../../assets/data/dokumenty.json';
+
 
 @Component({
   selector: 'app-dokumenty',
@@ -12,15 +14,14 @@ import { File } from '@ionic-native/File/ngx';
 export class DokumentyPage implements OnInit {
 
   files_per_row = 2;
-  pdf_files_in_rows = [];
+  dokumenty_data_in_rows = [];
 
   constructor(private document: DocumentViewer, private file: File) {
-    // console.log(pdf_files);
   }
 
   ngOnInit() {
-    for (let i = 0; i < pdf_files.length; i += this.files_per_row) {
-      this.pdf_files_in_rows.push({ items: pdf_files.slice(i, i + this.files_per_row ) });
+    for (let i = 0; i < dokumenty_data.length; i += this.files_per_row) {
+      this.dokumenty_data_in_rows.push({ items: dokumenty_data.slice(i, i + this.files_per_row ) });
     }
   }
 

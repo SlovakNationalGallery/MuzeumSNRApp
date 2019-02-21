@@ -18,7 +18,7 @@
   <h1 text-center>DOKUMENTY</h1>
 
   <ion-grid padding-top>
-    <ion-row *ngFor="let row of pdf_files_in_rows" justify-content-center align-items-center>
+    <ion-row *ngFor="let row of dokumenty_data_in_rows" justify-content-center align-items-center>
 
       <ion-col *ngFor="let f of row?.items; let i = index" class="file" text-center>
         <a (click)="openLocalPdf(f.file, f.title)">
