@@ -58,7 +58,7 @@ $bullet-size: 8px;
           border-radius: 0;
           border-bottom-left-radius: $bullet-size * 2;
           border-top-left-radius: $bullet-size * 2;
-          transform:translate(-5px,-50%);
+          transform:translate(-$bullet-size+1,-50%);
         }
       }
       .body {
@@ -66,6 +66,11 @@ $bullet-size: 8px;
         p {
           line-height:1.4em;
         }
+      }
+      .images {
+        position: absolute;
+        transform:translateY(70px);
+        right: 0px;
       }
       &:nth-child(2n) {
         text-align:left;
@@ -82,8 +87,11 @@ $bullet-size: 8px;
             border-top-left-radius: 0;
             border-bottom-right-radius: $bullet-size * 2;
             border-top-right-radius: $bullet-size * 2;
-            transform:translate(5px,-50%);
+            transform:translate($bullet-size - 1,-50%);
           }
+        }
+        .images {
+          left: 0px;
         }
       }
     }
