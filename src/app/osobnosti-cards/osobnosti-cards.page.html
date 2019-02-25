@@ -18,7 +18,7 @@
 
   <ion-slides pager="false" [options]="sliderConfig">
 
-    <ion-slide *ngFor="let o of o_data; let i = index">
+    <ion-slide *ngFor="let o of o_data; let i = index" id="{{ o.id }}">
       <ion-card>
         <ion-card-header text-center>
           <ion-card-title padding>{{ o.name }}</ion-card-title>

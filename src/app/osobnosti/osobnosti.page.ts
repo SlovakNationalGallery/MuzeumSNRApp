@@ -19,8 +19,6 @@ export class OsobnostiPage implements OnInit {
     for (let i = 0; i < osobnosti_data.length; i += this.data_per_row) {
       this.osobnosti_data_in_rows.push({ items: osobnosti_data.slice(i, i + this.data_per_row ) });
     }
-    console.log(this.osobnosti_data_in_rows);
-
   }
 
 }
