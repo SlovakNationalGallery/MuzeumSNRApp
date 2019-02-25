@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: 'dokumenty', loadChildren: './dokumenty/dokumenty.module#DokumentyPageModule' },
   { path: 'osobnosti', loadChildren: './osobnosti/osobnosti.module#OsobnostiPageModule' },
   { path: 'osobnosti/:id', loadChildren: './osobnosti-cards/osobnosti-cards.module#OsobnostiCardsPageModule' },
+  { path: 'kalendarium', loadChildren: './kalendarium/kalendarium.module#KalendariumPageModule' },
 ];
 
 @NgModule({
