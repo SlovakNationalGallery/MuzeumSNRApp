@@ -1,7 +1,7 @@
-Muzeum SNG App
+Muzeum SNR App
 ==============
 
-This App accompanies the permanent exhibition at the [Museum of the Slovak National Councils](https://www.snm.sk/?introduction-1), opened since 2019.
+This app accompanies the permanent exhibition at the [Museum of the Slovak National Councils](https://www.snm.sk/?introduction-1), opened since 2019.
 It is an open source mobile application built using Ionic, written entirely in HTML, CSS and TypeScript, and runs on numerous platforms (tested for iOS).
 
 The app uses:
