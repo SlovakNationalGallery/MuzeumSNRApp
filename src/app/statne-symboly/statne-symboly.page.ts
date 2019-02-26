@@ -12,7 +12,7 @@ export class StatneSymbolyPage implements OnInit {
   symboly_data = [];
   data_per_row = 2;
   symboly_data_in_rows = [];
-  symboly_data_by_year = [];
+  symboly_data_by_year = {};
 
   constructor() { }
 
