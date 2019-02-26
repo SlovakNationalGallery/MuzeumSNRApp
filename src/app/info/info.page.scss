@@ -2,15 +2,15 @@ ion-card {
   --background: #fff;
   box-shadow: 15px 15px 15px rgba(255,0,0,.4);
 
-  img {
-      width: 50%;
-      margin: 10px auto 20px;
-  }
+  max-width: 80%;
+  margin: 20px auto 50px;
+
 }
 
 ion-card-content {
   padding-left: 60px;
   padding-right: 60px;
+  padding-top: 0;
   font-size: 20px;
   white-space: pre-line;
   line-height: 1.4em;
@@ -19,3 +19,4 @@ ion-card-content {
       padding-bottom: 15px;
   }
 }
+

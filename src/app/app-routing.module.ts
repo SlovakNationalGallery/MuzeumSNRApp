@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'osobnosti', loadChildren: './osobnosti/osobnosti.module#OsobnostiPageModule' },
   { path: 'osobnosti/:id', loadChildren: './osobnosti-cards/osobnosti-cards.module#OsobnostiCardsPageModule' },
   { path: 'kalendarium', loadChildren: './kalendarium/kalendarium.module#KalendariumPageModule' },
+  { path: 'info', loadChildren: './info/info.module#InfoPageModule' },
 ];
 
 @NgModule({
