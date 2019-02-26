@@ -3,3 +3,24 @@ img.circle {
     max-width: 180px;
     height: auto;
 }
+
+img.heading {
+    position: absolute;
+
+    #osobnosti & {
+        top: -5px;
+        left: 25px;
+    }
+    #dokumenty & {
+        top: -5px;
+        left: 55px;
+    }
+    #statne-symboly & {
+        bottom: -15px;
+        left: 35px;
+    }
+    #kalendarium & {
+        bottom: -15px;
+        right: 15px;
+    }
+}
