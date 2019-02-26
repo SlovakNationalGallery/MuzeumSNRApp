@@ -33,11 +33,13 @@
     </ion-row>
     <ion-row justify-content-end>
       <ion-col>
-        <img src="assets/images/home/statne_symboly.png" alt="štátne symboly" class="circle drop-shadow">
-        <h2>
-          ŠTÁTNE
-          SYMBOLY
-        </h2>
+        <a [routerLink]="'/statne-symboly'" class="no-underline">
+          <img src="assets/images/home/statne-symboly.png" alt="štátne symboly" class="circle drop-shadow">
+          <h2>
+            ŠTÁTNE
+            SYMBOLY
+          </h2>
+        </a>
       </ion-col>
       <ion-col>
         <a [routerLink]="'/kalendarium'" class="no-underline">

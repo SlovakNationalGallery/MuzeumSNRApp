@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'osobnosti/:id', loadChildren: './osobnosti-cards/osobnosti-cards.module#OsobnostiCardsPageModule' },
   { path: 'kalendarium', loadChildren: './kalendarium/kalendarium.module#KalendariumPageModule' },
   { path: 'info', loadChildren: './info/info.module#InfoPageModule' },
+  { path: 'statne-symboly', loadChildren: './statne-symboly/statne-symboly.module#StatneSymbolyPageModule' },
 ];
 
 @NgModule({

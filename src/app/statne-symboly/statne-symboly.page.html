@@ -1,0 +1,37 @@
+<ion-header no-border>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="/assets/icon/arrow-back.svg" color="dark"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="'/home'" routerDirection="root">
+        <ion-icon slot="icon-only" src="/assets/icon/menu.svg" class="big"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h1 text-center padding-top>
+    ŠTÁTNE<br>
+    SYMBOLY
+  </h1>
+
+  <h2 text-center padding-top>
+    1849
+  </h2>
+
+  <ion-grid>
+    <ion-row *ngFor="let row of symboly_data_in_rows">
+      <ion-col *ngFor="let s of row?.items; let i = index" align-self-center text-center>
+        <!-- <a [routerLink]="'/statne-symboly/' + s.id" class="no-underline" routerDirection="forward"> -->
+          <img src="assets/images/statne-symboly/{{ s.img }}" alt="{{ s.title }}" class="img-full drop-shadow">
+          <h2>{{ s.title }}</h2>
+        <!-- </a> -->
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
