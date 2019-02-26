@@ -15,23 +15,26 @@
 </ion-header>
 
 <ion-content padding>
-  <h1 text-center padding-top>
+  <h1 text-center padding>
     ŠTÁTNE<br>
     SYMBOLY
   </h1>
 
-  <h2 text-center padding-top>
-    1849
-  </h2>
+  <div *ngFor="let year of symboly_data_by_year | keyvalue">
+    <h2 text-center>
+      {{ year.key }}
+    </h2>
 
-  <ion-grid>
-    <ion-row *ngFor="let row of symboly_data_in_rows">
-      <ion-col *ngFor="let s of row?.items; let i = index" align-self-center text-center>
-        <!-- <a [routerLink]="'/statne-symboly/' + s.id" class="no-underline" routerDirection="forward"> -->
-          <img src="assets/images/statne-symboly/{{ s.img }}" alt="{{ s.title }}" class="img-full drop-shadow">
-          <h2>{{ s.title }}</h2>
-        <!-- </a> -->
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+    <ion-grid no-padding>
+      <ion-row>
+        <ion-col *ngFor="let s of year.value; let i = index" align-self-center text-center size="6">
+          <!-- <a [routerLink]="'/statne-symboly/' + s.id" class="no-underline" routerDirection="forward"> -->
+            <img src="assets/images/statne-symboly/{{ s.year }}/{{ s.img }}" alt="{{ s.title }}" class="img-full drop-shadow">
+            <h2>{{ s.title }}</h2>
+          <!-- </a> -->
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
 </ion-content>

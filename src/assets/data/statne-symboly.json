@@ -1,14 +1,52 @@
 [
     {
         "id": "2_maly_znak_Uhorska_1790",
+        "year": "1848",
         "title": "Maly znak Uhorska",
         "img": "2_maly_znak_Uhorska_1790.jpg",
         "description": ""
     },
     {
         "id": "3_Pecat_SNR_1848",
+        "year": "1848",
         "title": "Pecat SNR 1848",
         "img": "3_Pecat_SNR_1848.jpg",
+        "description": ""
+    },
+
+    {
+        "id": "1_maly_statny_znak_csr_1920",
+        "year": "1919",
+        "title": "Maly statny znak CSR 1920",
+        "img": "1_Maly statny znak CSR 1920.jpg",
+        "description": ""
+    },
+    {
+        "id": "2_stredny_statny_znak_csr_1920",
+        "year": "1919",
+        "title": "Stredny statny znak CSR 1920",
+        "img": "2_ Stredny statny znak CSR 1920.jpg",
+        "description": ""
+    },
+    {
+        "id": "3_velky_statny_znak_csr_1920",
+        "year": "1919",
+        "title": " Velky statny znak CSR 1920",
+        "img": "3_ Velky statny znak CSR 1920.jpg",
+        "description": ""
+    },
+    {
+        "id": "4_1919_docasny_znak_csr",
+        "year": "1919",
+        "title": "1919 Docasny znak CSR",
+        "img": "4_1919 Docasny znak CSR.jpg",
+        "description": ""
+    },
+    {
+        "id": "5_standarda_prezidenta_csr_1920",
+        "year": "1919",
+        "title": "Standarda prezidenta CSR 1920",
+        "img": "5_Standarda prezidenta CSR 1920.jpg",
         "description": ""
     }
 ]
