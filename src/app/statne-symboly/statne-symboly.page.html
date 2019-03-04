@@ -22,7 +22,7 @@
 
   <div *ngFor="let year of symboly_data_by_year | keyvalue">
     <h2 text-center>
-      {{ year.key }}
+      {{ formatYear(year.key) }}
     </h2>
 
     <ion-grid no-padding>

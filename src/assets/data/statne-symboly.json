@@ -1,51 +1,149 @@
 [
     {
+        "id": "1_velky_znak_Rakusko_Uhorska",
+        "year": "1848",
+        "title": "Veľký znak Rakúsko-Uhorska, 1836",
+        "img": "1_velky_znak_Rakusko_Uhorska.jpg",
+        "description": "V strede veľkého znaku Rakúsko-Uhorska je umiestnený erb Rakúska. Zadný štít je štvrtený a v každej štvrtine je jedno dominantné znamenie, okolo ktorého sa sústreďujú ďalšie znaky. V strede prvej štvrtiny sa nachádza malý znak Uhorska. \n \n Verbőci: Tripartitum, Prvá časť, Článok 11, § 3: \n „§ 3 Preto si zaslúži označenie kráľ a apoštol, lebo svojim učením, dobrými skutkami a vlastným príkladom nahradil na zemi apoštolov. A preto si tiež vyslúžil ako výsadu od pápeža svoj erb s dvojkrížom na znak vlastnej svätosti a teda ho právom nazývame kráľom a apoštolom. A od tých čias aj uhorský národ zvykol používať jeho dvojkríž a považovať ho za vlastný. Lebo si z Panónie, v ktorej dnes Maďari žijú a bývajú, prisvojil zobrazenie štyroch riek, totiž Istrie čiže Dunaja, Tisy, Sávy a Drávy.“ \n \n Zákonný článok č. 21/1848 o národnej farbe a krajinskom znaku: \n „§ 1 Obnovujú sa starobylé práva o národnej farbe a krajinskom znaku.“"
+    },
+    {
         "id": "2_maly_znak_Uhorska_1790",
         "year": "1848",
-        "title": "Maly znak Uhorska",
+        "title": "Malý znak Uhorska, 1836",
         "img": "2_maly_znak_Uhorska_1790.jpg",
-        "description": ""
+        "description": "Štiepený štít v ľavej polovici s pruhmi a v pravej s dvojitým krížom na modrom trojvrší."
     },
     {
         "id": "3_Pecat_SNR_1848",
         "year": "1848",
-        "title": "Pecat SNR 1848",
+        "title": "Pečať prvej SNR, 1848",
         "img": "3_Pecat_SNR_1848.jpg",
-        "description": ""
+        "description": "Slovenský národný znak tvorí dvojkríž na trojvrší. \n \n Dvojkríž na zelenom trojvrší používalo ako znak Uhorsko. Prerod z panovníckeho a teritoriálneho znaku na národný symbol sa zavŕšil v roku 1848, keď štúrovci vyhlásili dvojitý kríž na troch vrchoch za znak Slovenska a Slovákov. Zelenú farbu trojvršia nahradili modrou, aby zodpovedalo všeslovanským farbám. Zo znaku sa v tomto čase odstránila aj uhorská koruna. Dvojitý kríž symbolizuje tradíciu Cyrila a Metoda. Prvýkrát znak oficiálne použila v auguste 1848 Slovenská národná rada pôsobiaca vo Viedni. \n \n Spočiatku sa na erbe zobrazoval strieborný kríž na červenom poli. Bol to erb uhorského kráľa Bela III. (1173 – 1196). Od 14. storočia sa ustálila dnešná podoba trojvršia, pôvodne strieborného, neskôr zeleného a od roku 1848 modrého. \n \n Trojvršie pôvodne symbolizovalo vrch Golgota, kde bol ukrižovaný Ježiš Kristus. Od 16. storočia sa význam trojvršia v uhorskom znaku vykladal ako Tatra, Matra, Fatra (tri vrchy Horného Uhorska, kde žili prevažne Slováci). Z uhorského znaku trojvršie a kríž prebrali štúrovci, ktorí ho vyhlásili za znak Slovenska a Slovákov. V heraldickom ponímaní stojí kríž na najvyššom tatranskom končiari."
     },
     {
-        "id": "1_maly_statny_znak_csr_1920",
-        "year": "1919",
-        "title": "Maly statny znak CSR 1920",
-        "img": "1_Maly statny znak CSR 1920.jpg",
-        "description": ""
-    },
-    {
-        "id": "2_stredny_statny_znak_csr_1920",
-        "year": "1919",
-        "title": "Stredny statny znak CSR 1920",
-        "img": "2_ Stredny statny znak CSR 1920.jpg",
-        "description": ""
-    },
-    {
-        "id": "3_velky_statny_znak_csr_1920",
-        "year": "1919",
-        "title": " Velky statny znak CSR 1920",
-        "img": "3_ Velky statny znak CSR 1920.jpg",
-        "description": ""
+        "id": "4_Stanovy_matice_slovenskej",
+        "year": "1863",
+        "title": "Stanovy Matice slovenskej",
+        "img": "4_Stanovy_matice_slovenskej.jpg",
+        "description": "Slovenská Matica je jednota milovníkov národa a života slovenského a jej cieľ: v členoch slovenského národa mravnú a umnú vzdelanosť budiť, rozširovať a utvrdzovať, slovenskú literatúru a krásne umenia pestovať a podporovať, a tým i hmotný dobrobyt slovenského národa napomáhať a na jeho zvelebení pracovať. \n \n Stanovy Matice slovenskej \n \n 4. august 1863"
     },
     {
         "id": "4_1919_docasny_znak_csr",
-        "year": "1919",
-        "title": "1919 Docasny znak CSR",
-        "img": "4_1919 Docasny znak CSR.jpg",
-        "description": ""
+        "year": "1919-1920",
+        "title": "Dočasný znak ČSR, 1919",
+        "img": "4_1919_docasny_znak_csr.jpg",
+        "description": "Zákon č. 300/1919 Zb., ktorým sa ustanovuje štátny znak: \n Až do konečnej úpravy štátneho znaku Československej republiky sa ustanovuje za jej znak doterajší znak Českého kráľovstva podľa tohto heraldického popisu: \n Na červenom štíte strieborný dvojchvostý ručiaci lev v skoku hľadiaci vpravo, so zlatými pazúrmi, zlatým vyplazeným jazykom a zlatou heraldickou korunou. \n \n Nariadenie ministra-plnomocníka vlády Československej republiky pre správu Slovenska č. 39/1919 o zástavách, znakoch (címeroch) a odznakoch: \n Na Slovensku, teda na území bývalého kráľovstva uhorského, ktoré československá republika prevzala do svojej moci, slobodno len bieločervené alebo bielomodročervené zástavy, kokardy a podobné odznaky a len znaky (címer) československej republiky a jej zemí upotrebúvať, čiže nosiť, predávať a rozširovať."
     },
     {
-        "id": "5_standarda_prezidenta_csr_1920",
-        "year": "1919",
-        "title": "Standarda prezidenta CSR 1920",
-        "img": "5_Standarda prezidenta CSR 1920.jpg",
-        "description": ""
+        "id": "1_Maly_statny_znak_CSR_1920",
+        "year": "1919-1920",
+        "title": "Malý štátny znak ČSR, 1920",
+        "img": "1_Maly_statny_znak_CSR_1920.jpg",
+        "description": "Malý znak Československej republiky je: na červenom štíte strieborný dvojchvostý ručiaci lev v skoku hľadiaci vpravo, so zlatými pazúrmi, zlatým vyplazeným jazykom a zlatou heraldickou korunou, nesúci na svojich prsiach červený štítok s tromi modrými vrchmi, z ktorých na strednom vyvýšenom je vztýčený strieborný patriarchálny kríž."
+    },
+    {
+        "id": "2_Stredny_statny_znak_CSR_1920",
+        "year": "1919-1920",
+        "title": "Stredný štátny znak ČSR, 1920",
+        "img": "2_Stredny_statny_znak_CSR_1920.jpg",
+        "description": "Stredný znak Československej republiky má dva štíty, predný a zadný. \n \n Na prednom (srdečnom) je český znak: na červenom štíte strieborný dvojchvostý ručiaci lev v skoku hľadiaci vpravo, so zlatými pazúrmi, zlatým vyplazeným jazykom a zlatou heraldickou korunou. \n \n Zadný štít je štvrtený. V jeho pravom hornom poli je slovenský znak: na červenom štíte tri modré vrchy, z ktorých na strednom vyvýšenom je vztýčený strieborný patriarchálny kríž. \n V ľavom hornom poli je znak Podkarpatskej Rusi: štít je štiepený, v pravej modrej polovici sú tri zlaté brvná, v ľavej polovici je v striebornom poli červený stojaci medveď hľadiaci vpravo. \n V pravom spodnom poli je moravský znak: na modrom štíte červeno-strieborná šachovaná orlica v zlatej zbroji so zlatou heraldickou korunou hľadiaca vpravo. \n V ľavom spodnom poli je sliezsky znak: na zlatom štíte čierna orlica hľadiaca vľavo v červenej zbroji, so zlatou heraldickou korunou a striebornou pružinou na prsiach, zakončenou ďatelinovými trojlístkami a uprostred zdobenou krížikom."
+    },
+    {
+        "id": "3_Velky_statny_znak_CSR_1920",
+        "year": "1919-1920",
+        "title": "Veľký štátny znak ČSR, 1920",
+        "img": "3_Velky_statny_znak_CSR_1920.jpg",
+        "description": "Veľký znak republiky Československej sa skladá z predného a zadného štítu. \n \n  Na prednom štíte je znak český. Zadný štít je rozdelený na sedem polí troma vodorovnými pruhmi tak, že horné dva sú štiepené, tretí dolný je štiepený trikrát. \n \n V pravom hornom poli je znak slovenský, v ľavom hornom poli je znak Podkarpatskej Rusi. V pravom strednom poli je znak moravský a v ľavom strednom poli znak sliezsky. V pravom dolnom poli je znak Těšínska, v strednom dolnom poli znak Opavska a v pravom dolnom poli znak Ratiborska. \n \n Po pravej i ľavej strane štítu stojí zlatý dvojchvostý lev s heraldickou korunou ako strážca štítu. Pod štítom sa vinie stuha, na ktorej je heslo: „Pravda vítezí.“"
+    },
+    {
+        "id": "5_Standarda_prezidenta_CSR_1920",
+        "year": "1919-1920",
+        "title": "Štandarda prezidenta ČSR, 1920",
+        "img": "5_Standarda_prezidenta_CSR_1920.jpg",
+        "description": "Štandarda prezidenta je biela, s okrajom skladajúcim sa zo striedavo bielych, modrých a červených políčok. Uprostred bieleho poľa je veľký štátny znak."
+    },
+    {
+        "id": "1_statny znak_SR_1939",
+        "year": "1939-1945",
+        "title": "Štátny znak SR, 1939 – 1945",
+        "img": "1_statny znak_SR_1939.jpg",
+        "description": "Zákon č. 148/1939 Sl. zák. o štátnom znaku, štátnej pečati, štátnej vlajke a štátnej zástave: \n Znak Slovenskej republiky je tento: na červenom (cinober tmavý) zahrotenom štíte tri belasé (parížska belasá) končisté vrchy; na prostrednom vyššom vrchu je vztýčený strieborný kríž patriarchov; ramená kríža sú na koncoch mierne rozšírené."
+    },
+    {
+        "id": "2_statna_vlajka_1939",
+        "year": "1939-1945",
+        "title": "Štátna vlajka SR, 1939 – 1945",
+        "img": "2_statna_vlajka_1939.jpg",
+        "description": "Zákon č. 148/1939 Sl. zák. o štátnom znaku, štátnej pečati, štátnej vlajke a štátnej zástave: \n Štátna vlajka sa skladá z troch rovnobežných polí v tomto poradí: biele, belasé (parížska belasá), červené (cinober tmavý). \n Štátna zástava sa podobá štátnej vlajke, ale na rozdiel od tejto je tesne pripevnená na žrď a pomer jej dĺžky a šírky sa prispôsobuje okolnostiam (výška domu, šírka ulice atď.)."
+    },
+    {
+        "id": "3_standarda_prezidenta_SR_1939",
+        "year": "1939-1945",
+        "title": "Štandarda prezidenta SR, 1939 – 1945",
+        "img": "3_standarda_prezidenta_SR_1939.jpg",
+        "description": "Zákon č. 263/1939 Sl. zák. o štandarde prezidenta Slovenskej republiky: \n Štandarda prezidenta Slovenskej republiky je táto: Na prostriedku štvorcového poľa je vtkaný štátny znak Slovenskej republiky; pod znakom je v zlatej farbe heslo: „VERNÍ SEBE SVORNE NAPRED“; v každom rohu poľa je heraldická, zlatým šípom preťatá ruža. Hroty šípov smerujú k vrcholcu žrdi. Na každej strane medzi heraldickými ružami sú tri dvojramenné kríže s rovnakými ramenami v červenej farbe. Celok je sviazaný belasou stuhou vo forme kríža a lemovaný zlatou ozdobou."
+    },
+    {
+        "id": "4_statna_pecat_1939",
+        "year": "1939-1945",
+        "title": "Štátna pečať SR, 1939 – 1945",
+        "img": "4_statna_pecat_1939.jpg",
+        "description": "Zákon č. 148/1939 Sl. zák. o štátnom znaku, štátnej pečati, štátnej vlajke a štátnej zástave: \n Na štátnej pečati je vyobrazený štátny znak s kruhopisom: „Pečať Slovenskej republiky“. Priemer pečati je 45 mm."
+    },
+    {
+        "id": "1_stany_znak_CSSR_1960",
+        "year": "1960-1990",
+        "title": "Štátny znak ČSSR, 1960",
+        "img": "1_stany_znak_CSSR_1960.jpg",
+        "description": "Ústavný zákon č. 100/1960 Zb. Ústava Československej socialistickej republiky \n Zákon č. 163/1960 Zb. o štátnom znaku a o štátnej vlajke: \n Štátny znak Československej socialistickej republiky tvorí červený štít tvaru husitskej pavézy s päťramennou hviezdou v hornej časti, na ktorom je biely dvojchvostý lev majúci na hrudi červený štítok s modrou siluetou Kriváňa a vatrou zlatej farby. Kresba znaku je zlatá."
+    },
+    {
+        "id": "2_statna_vlajka_CSSR_1960",
+        "year": "1960-1990",
+        "title": "Štátna vlajka ČSSR, 1960 – 1993",
+        "img": "2_statna_vlajka_CSSR_1960.jpg",
+        "description": "Ústavný zákon č. 100/1960 Zb. Ústava Československej socialistickej republiky \n Zákon č. 163/1960 Zb. o štátnom znaku a o štátnej vlajke: \n Štátna vlajka Československej socialistickej republiky sa skladá z dolného poľa červeného a horného bieleho, medzi ktoré je vsunutý modrý klin od žrde k stredu vlajky."
+    },
+    {
+        "id": "3_standarda_prezidenta_CSSR_1960",
+        "year": "1960-1990",
+        "title": "Štandarda prezidenta ČSSR",
+        "img": "3_standarda_prezidenta_CSSR_1960.jpg",
+        "description": "Štandarda prezidenta republiky je biela, s okrajom z bielych, modrých a červených políčok. V jej strede je štátny znak, po jeho stranách sú lipové ratolesti. Pod štátnym znakom je heslo „Pravda vítězí“ na stuhe červenej farby. Písmena nápisu sú zlatej farby."
+    },
+    {
+        "id": "1_statny_znak_1993",
+        "year": "1993",
+        "title": "Štátny znak Slovenskej republiky, 1993",
+        "img": "1_statny_znak_1993.jpg",
+        "description": "Zákon Národnej rady Slovenskej republiky č. 63/1993 o štátnych symboloch Slovenskej republiky a ich používaní v znení neskorších predpisov a s účinnosťou od 01. 01. 2016: \n Štátny znak Slovenskej republiky tvorí na červenom ranogotickom štíte dvojitý strieborný kríž, vztýčený na strednom vyvýšenom vŕšku moderného trojvršia. Driek a ramená kríža sú na koncoch rozšírené a vhĺbené, vrch sú oblé."
+    },
+    {
+        "id": "2_statna_vlajka_1993",
+        "year": "1993",
+        "title": "Štátna vlajka Slovenskej republiky, 1993",
+        "img": "2_statna_vlajka_1993.jpg",
+        "description": "Zákon Národnej rady Slovenskej republiky č. 63/1993 o štátnych symboloch Slovenskej republiky a ich používaní v znení neskorších predpisov a s účinnosťou od 01. 01. 2016: \n Štátna vlajka Slovenskej republiky sa skladá z troch pozdĺžnych pruhov – bieleho, modrého a červeného, rovnakej šírky, usporiadaných pod sebou. Na prednej polovici listu štátnej vlajky je umiestnený štátny znak."
+    },
+    {
+        "id": "3_statna_zastava_1993",
+        "year": "1993",
+        "title": "Štátna zástava Slovenskej republiky, 1993",
+        "img": "3_statna_zastava_1993.jpg",
+        "description": "Zákon Národnej rady Slovenskej republiky č. 63/1993 o štátnych symboloch Slovenskej republiky a ich používaní v znení neskorších predpisov a s účinnosťou od 01. 01. 2016: \n Štátna zástava je utvorená podľa štátnej vlajky, je vždy pevne spojená so žrďou alebo priečnym rahnom. Na štátnej zástave použitej vo forme koruhvy sa štátny znak nachádza vo zvislej polohe."
+    },
+    {
+        "id": "4_statna_pecat_1993",
+        "year": "1993",
+        "title": "Štátna pečať Slovenskej republiky, 1993",
+        "img": "4_statna_pecat_1993.jpg",
+        "description": "Zákon Národnej rady Slovenskej republiky č. 63/1993 o štátnych symboloch Slovenskej republiky a ich používaní v znení neskorších predpisov a s účinnosťou od 01. 01. 2016: \n Štátna pečať je okrúhla. V jej strede je vyobrazený štátny znak, pričom farby znaku sú vyznačené heraldickým šrafovaním. Okolo štátneho znaku je do kruhu umiestnený nápis (kruhopis) Slovenská republika. V dolnej časti kruhopisu štátnej pečate je lipový lístok."
+    },
+    {
+        "id": "5_statna_hymna_1993",
+        "year": "1993",
+        "title": "Štátna hymna Slovenskej republiky",
+        "img": "5_statna_hymna_1993.png",
+        "description": "Štátnou hymnou Slovenskej republiky sú prvé dve slohy piesne Nad Tatrou sa blýska. Text piesne napísal Janko Matúška v roku 1844."
     }
 ]
