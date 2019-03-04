@@ -1,5 +1,14 @@
 $bullet-size: 8px;
 
+.bg-container {
+  background-color: var(--ion-background-color);
+  position: relative;
+  z-index: 5;
+  h1 {
+    margin: 0 auto;
+  }
+}
+
 .timeline {
   min-height:100vh;
   margin:0;
