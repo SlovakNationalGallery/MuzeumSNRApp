@@ -69,10 +69,11 @@ $bullet-size: 8px;
       }
       .images {
         position: absolute;
-        transform:translateY(70px);
+        transform:translateY(20px);
         right: 0px;
         img {
           max-width: calc(50% - 40px);
+          margin-bottom: 40px;
         }
       }
       &:nth-child(2n) {
