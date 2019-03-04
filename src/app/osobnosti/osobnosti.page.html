@@ -19,7 +19,7 @@
 
   <ion-grid>
     <ion-row *ngFor="let row of osobnosti_data_in_rows">
-      <ion-col *ngFor="let o of row?.items; let i = index"  align-self-center text-center>
+      <ion-col *ngFor="let o of row?.items; let i = index"  align-self-top text-center>
         <a [routerLink]="'/osobnosti/' + o.id" class="no-underline"  routerDirection="forward">
           <img src="assets/images/osobnosti/{{ o.img }}" alt="{{ o.name }}" class="img-full drop-shadow">
           <h2>{{ o.name }}</h2>
