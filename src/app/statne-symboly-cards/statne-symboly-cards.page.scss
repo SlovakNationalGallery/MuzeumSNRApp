@@ -1,0 +1,21 @@
+ion-card {
+  --background: #fff;
+  box-shadow: 15px 15px 15px rgba(255,0,0,.4);
+
+  img {
+      width: 50%;
+      margin: 10px auto 20px;
+  }
+}
+
+ion-card-content {
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 20px;
+  white-space: pre-line;
+  line-height: 1.4em;
+
+  p {
+      padding-bottom: 15px;
+  }
+}

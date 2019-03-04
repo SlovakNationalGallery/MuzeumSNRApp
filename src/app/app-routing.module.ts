@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'kalendarium', loadChildren: './kalendarium/kalendarium.module#KalendariumPageModule' },
   { path: 'info', loadChildren: './info/info.module#InfoPageModule' },
   { path: 'statne-symboly', loadChildren: './statne-symboly/statne-symboly.module#StatneSymbolyPageModule' },
+  { path: 'statne-symboly/:id', loadChildren: './statne-symboly-cards/statne-symboly-cards.module#StatneSymbolyCardsPageModule' },
 ];
 
 @NgModule({

@@ -28,10 +28,10 @@
     <ion-grid no-padding>
       <ion-row>
         <ion-col *ngFor="let s of year.value; let i = index" align-self-center text-center size="6">
-          <!-- <a [routerLink]="'/statne-symboly/' + s.id" class="no-underline" routerDirection="forward"> -->
+          <a [routerLink]="'/statne-symboly/' + s.id" class="no-underline" routerDirection="forward">
             <img src="assets/images/statne-symboly/{{ s.year }}/{{ s.img }}" alt="{{ s.title }}" class="img-full drop-shadow">
             <h2>{{ s.title }}</h2>
-          <!-- </a> -->
+          </a>
         </ion-col>
       </ion-row>
     </ion-grid>

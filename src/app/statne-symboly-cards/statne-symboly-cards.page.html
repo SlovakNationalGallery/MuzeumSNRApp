@@ -1,0 +1,40 @@
+<ion-header no-border>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/statne-symboly" text="" icon="/assets/icon/arrow-back.svg" color="dark">
+      </ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="'/home'" routerDirection="root">
+        <ion-icon slot="icon-only" src="/assets/icon/menu.svg" class="big"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-slides pager="false" [options]="sliderConfig">
+
+    <ion-slide *ngFor="let s of s_data; let i = index" id="{{ s.id }}">
+      <ion-card>
+        <ion-card-header text-center>
+          <ion-card-title padding>{{ s.title }}</ion-card-title>
+          <ion-card-subtitle>
+            {{ s.year }}
+          </ion-card-subtitle>
+        </ion-card-header>
+
+        <img src="assets/images/statne-symboly/{{ s.year }}/{{ s.img }}" alt="{{ s.title }}" class="">
+
+        <ion-card-content text-left>
+          {{ s.description }}
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>
