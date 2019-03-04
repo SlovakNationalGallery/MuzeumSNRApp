@@ -71,6 +71,9 @@ $bullet-size: 8px;
         position: absolute;
         transform:translateY(70px);
         right: 0px;
+        img {
+          max-width: calc(50% - 40px);
+        }
       }
       &:nth-child(2n) {
         text-align:left;
