@@ -1,22 +1,72 @@
 [
     {
         "year": "1847",
-        "title": "Reč Ľudovíta Štúra na Uhorskom sneme",
-        "file": "Reč Ľudovíta Štúra.pdf"
+        "title": "Reč Ľudovíta Štúra na uhorskom sneme",
+        "file": "Rec_Ludovita_Stura.pdf"
     },
     {
         "year": "1848",
         "title": "Žiadosti slovenského národa",
-        "file": "KVP.pdf"
+        "file": "ziadosti_slovenskeho_naroda.pdf"
+    },
+    {
+        "year": "1861",
+        "title": "Memorandum národa slovenského",
+        "file": "memorandum_text.pdf"
     },
     {
         "year": "1918",
-        "title": "Rezolúcia",
-        "file": "martinska deklarácia text.pdf"
+        "title": "Rezolúcia z 1. mája 1918",
+        "file": "rezolucia_z_1_maja_1918.pdf"
+    },
+    {
+        "year": "1918",
+        "title": "Pittsburská dohoda",
+        "file": "pittsburgska_dohoda.pdf"
+    },
+    {
+        "year": "1918",
+        "title": "Vystúpenie Ferdiša Jurigu v uhorskom parlamente",
+        "file": "Prejav_F_Jurigu_v_uhorskom_parlamente_19_októbra_1918.pdf"
+    },
+    {
+        "year": "1918",
+        "title": "Deklarácia slovenského národa",
+        "file": "martinska_deklaracia_text.pdf"
     },
     {
         "year": "1920",
         "title": "Ústava Československej republiky",
-        "file": "memorandum text.pdf"
+        "file": "Ustava_1920.pdf"
+    },
+    {
+        "year": "1943",
+        "title": "Vianočná dohoda",
+        "file": "vianocna_dohoda.pdf"
+    },
+    {
+        "year": "1945",
+        "title": "Košický vládny program",
+        "file": "KVP.pdf"
+    },
+    {
+        "year": "1968",
+        "title": "Ústavný zákon z 27. októbra 1968 o československej federácii",
+        "file": "zakon_o_csl_federacii_1968.pdf"
+    },
+    {
+        "year": "1968",
+        "title": "Ústavný zákon z 27. októbra 1968 o československej federácii v znení neskorších predpisov",
+        "file": "zakon_o_federacii_v_zneni_neskorsich_predpisov.pdf"
+    },
+    {
+        "year": "1992",
+        "title": "Deklarácia SNR o zvrchovanosti Slovenskej republiky",
+        "file": "deklaracia_SNR_o_zvrchovanosti_1992.pdf"
+    },
+    {
+        "year": "1992",
+        "title": "Ústava Slovenskej republiky",
+        "file": "ustava_sr.pdf"
     }
 ]
