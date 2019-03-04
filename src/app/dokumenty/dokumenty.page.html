@@ -24,7 +24,7 @@
         <a (click)="openLocalPdf(f.file, f.title)">
           <img src="assets/icon/file.svg" alt="pdf file" class="background-image drop-shadow img-full">
           <span class="year">{{ f.year }}</span>
-          <span class="title">{{ f.title }}</span>
+          <span class="title" [innerHTML]="f.title"></span>
         </a>
       </ion-col>
 
