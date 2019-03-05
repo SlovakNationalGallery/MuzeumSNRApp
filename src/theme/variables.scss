@@ -100,26 +100,33 @@
   --ion-text-color:       #454343;
   --ion-font-family:      gt_eesti_pro_display, sans;
 
-  --ion-grid-padding:               40px;
-  --ion-grid-column-padding:        40px;
+  --ion-padding: 10px;
+  --ion-grid-padding:               10px;
+  --ion-grid-column-padding:        10px;
 
   // --ion-box-shadow-color: #F28E8E;
   --ion-item-background: #fff;
+
+  // *** Custom
+  // --h1-size:
 }
 
 
 ion-toolbar {
   --background: var(--ion-background-color);
   --ion-color-base: var(--ion-background-color);
-  --min-height: 80px;
-  --padding-start: 40px;
-  --padding-end: 40px;
-  --padding-top : 20px;
-  --padding-bottom : 20px;
+  // --min-height: 80px;
+  --padding-start: 20px;
+  --padding-end: 20px;
+  --padding-top : 10px;
+  --padding-bottom : 10px;
 }
 
 ion-icon {
-  --icon-font-size: 2.5em;
+  --icon-font-size: 2.0em;
+  @media (min-width:600px) {
+    --icon-font-size: 2.5em;
+  }
 }
 
 ion-button {
@@ -128,3 +135,21 @@ ion-button {
 }
 
 
+// https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile?rq=1
+// portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android)
+@media (min-width:600px) {
+  :root {
+    --ion-padding: 16px;
+    --ion-grid-padding:               40px;
+    --ion-grid-column-padding:        40px;
+  }
+
+  ion-toolbar {
+    --min-height: 80px;
+    --padding-start: 40px;
+    --padding-end: 40px;
+    --padding-top : 20px;
+    --padding-bottom : 20px;
+  }
+
+}

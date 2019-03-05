@@ -1,3 +1,4 @@
+import { Platform } from '@ionic/angular';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import symboly_data from '../../assets/data/statne-symboly.json';
@@ -10,27 +11,27 @@ import symboly_data from '../../assets/data/statne-symboly.json';
 export class StatneSymbolyCardsPage implements OnInit {
 
   sliderConfig = {
-    spaceBetween: 10,
     centeredSlides: true,
-    slidesPerView: 1.2,
+    spaceBetween: 0,
+    slidesPerView: 1,
     initialSlide: 0
-    // hashNavigation: {
-    //   watchState: true
-    // }
   };
 
   s_data = [];
   s_id: string;
   s_index: number;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute, private platform: Platform) { }
 
   ngOnInit() {
     this.s_data = symboly_data;
     this.s_id = this.route.snapshot.paramMap.get('id');
-    // console.log(this.s_id);
     this.s_index = symboly_data.findIndex(i => i.id === this.s_id);
     this.sliderConfig.initialSlide = this.s_index;
+    if (this.platform.is('tablet')) {
+      this.sliderConfig.spaceBetween = 10;
+      this.sliderConfig.slidesPerView = 1.2;
+    }
   }
 
 }

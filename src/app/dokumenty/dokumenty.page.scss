@@ -3,15 +3,23 @@ span.title {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25px;
+    font-size: 18px;
+    @media (min-width:600px) {
+      font-size: 25px;
+    }
+
 }
 
 span.year {
     position: absolute;
     top: 15%;
     right: 25%;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--ion-color-secondary);
+    @media (min-width:600px) {
+      font-size: 30px;
+    }
+
 }
 
 img.background-image {
