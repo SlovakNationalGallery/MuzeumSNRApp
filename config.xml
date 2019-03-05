@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="sk.sng.muzeumsnr" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="sk.sng.muzeumsnr" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>MuzeumSNR</name>
+    <config-file parent="CFBundleDisplayName" platform="ios" target="*-Info.plist">
+        <string>Múzeum SNR</string>
+    </config-file>
     <description>Aplikácia sprístupňuje kľúčové dokumenty a informácie o dejinách a úlohe SNR. Obsahuje prepisy originálnych štátotvorných dokumentov, mapuje vývoj štátnych symbolov na území Slovenska od vzniku SNR v roku 1848 po súčasnosť, približuje osobnosti, ktoré sa významnou mierou podieľali na formovaní spoločensko-politického vývoja na Slovensku a mapuje kľúčové udalosti histórie slovenskej štátnosti.</description>
     <author email="lab@sng.sk" href="http://lab.sng.sk">lab.SNG</author>
     <content src="index.html" />
