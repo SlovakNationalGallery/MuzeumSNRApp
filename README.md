@@ -32,5 +32,9 @@ ionic serve
 More info on how to use Ionic and Cordova to build native apps for various platform can be found on the [Ionic documentation](https://ionicframework.com/docs/building/ios).
 
 ```
-ionic cordova build ios
+ionic cordova prepare ios
+```
+or
+```
+ionic cordova prepare ios --prod
 ```
