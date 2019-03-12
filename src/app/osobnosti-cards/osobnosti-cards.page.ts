@@ -29,7 +29,7 @@ export class OsobnostiCardsPage implements OnInit {
     // console.log(this.o_id);
     this.o_index = osobnosti_data.findIndex(i => i.id === this.o_id);
     this.sliderConfig.initialSlide = this.o_index;
-    if (this.platform.is('tablet')) {
+    if (this.platform.is('tablet') || this.platform.is('ipad')) {
       this.sliderConfig.spaceBetween = 10;
       this.sliderConfig.slidesPerView = 1.2;
     }

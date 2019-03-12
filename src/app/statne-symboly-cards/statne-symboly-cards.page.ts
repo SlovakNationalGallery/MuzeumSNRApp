@@ -28,7 +28,7 @@ export class StatneSymbolyCardsPage implements OnInit {
     this.s_id = this.route.snapshot.paramMap.get('id');
     this.s_index = symboly_data.findIndex(i => i.id === this.s_id);
     this.sliderConfig.initialSlide = this.s_index;
-    if (this.platform.is('tablet')) {
+    if (this.platform.is('tablet') || this.platform.is('ipad')) {
       this.sliderConfig.spaceBetween = 10;
       this.sliderConfig.slidesPerView = 1.2;
     }
