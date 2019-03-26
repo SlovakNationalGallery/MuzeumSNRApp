@@ -5,7 +5,7 @@ This app accompanies the permanent exhibition at the [Museum of the Slovak Natio
 It is an open source mobile application built using Ionic, written entirely in HTML, CSS and TypeScript, and runs on numerous platforms (tested for iOS).
 
 <p align="center">
-  <a href="https://itunes.apple.com/sk/app/m%C3%BAzeum-snr/id1455228900?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-gb/badge-lrg.svg?releaseDate=2019-03-14&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+  <a href="https://itunes.apple.com/sk/app/m%C3%BAzeum-snr/id1455228900?mt=8"><img src="appstore.svg" alt="Download on the App Store"></a>
 </p>
 
 The app uses:
