@@ -4,6 +4,10 @@ Muzeum SNR App
 This app accompanies the permanent exhibition at the [Museum of the Slovak National Councils](https://www.snm.sk/?introduction-1), opened since 2019.
 It is an open source mobile application built using Ionic, written entirely in HTML, CSS and TypeScript, and runs on numerous platforms (tested for iOS).
 
+<p align="center">
+  <a href="https://itunes.apple.com/sk/app/m%C3%BAzeum-snr/id1455228900?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-gb/badge-lrg.svg?releaseDate=2019-03-14&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+</p>
+
 The app uses:
 
 * Ionic: https://ionicframework.com/
